@@ -2,3 +2,45 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+body {
+  background-color: #f6f8fa;
+}
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 8;
+  background-color: white;
+  box-shadow: 0 2px 5px 2px rgb(0 0 0 / 15%);
+}
+.nav {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+.nav p {
+  display: block;
+  margin: 20px;
+  margin-right: 40px;
+}
+
+.profileImage {
+  width: 30%;
+  height: 30%;
+  border-radius: 80%;
+}
+.title {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #55849e;
+  color: white;
+  margin-top: 60px;
+  padding: 20px;
+  width: 100%;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+}
