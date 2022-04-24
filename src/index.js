@@ -3,6 +3,7 @@ import ReactDom from "react-dom";
 import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 import "./styles.css";
 import profileImage from "./Images/profile.JPG";
+import { BrowserRouter,Routes,Route } from "react-router-dom";
 import Contact from "./contact";
 
 // function App() {
@@ -120,4 +121,11 @@ const root = (
   </>
 );
 
-ReactDom.render(root, document.getElementById("root"));
+ReactDOM.createRoot(document.getElementById('root') ).render(
+  <BrowserRouter>
+    <Routes>
+    <Route exact path="/" element={root} />
+      <Route path="/app" element={<App />} />
+    </Routes>
+  </BrowserRouter>
+)
