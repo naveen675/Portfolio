@@ -58,6 +58,12 @@ export default[
             alt : "Jira",
             src :"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw08jO1GdNZjfEbs5m54SsjEoysCmfPrzBfA&usqp=CAU",
             title:"Jira"
+        },
+
+        {
+            alt : "Docker",
+            src :"https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png",
+            title:"Docker"
         }
       
 

@@ -24,12 +24,13 @@ body {
 .nav button {
   margin: 20px;
   margin-right: 40px;
+  font-size: 15px;
   background-color: white;
   border: 0;
 }
 
-.nav .item:hover{
-  background-color: grey;
+.nav button:hover{
+  color: blue;
 }
 
 .profileImage {
