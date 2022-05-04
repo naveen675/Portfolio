@@ -21,10 +21,15 @@ body {
   gap: 10px;
   justify-content: flex-end;
 }
-.nav p {
-  display: block;
+.nav button {
   margin: 20px;
   margin-right: 40px;
+  background-color: white;
+  border: 0;
+}
+
+.nav .item:hover{
+  background-color: grey;
 }
 
 .profileImage {
@@ -50,6 +55,7 @@ body {
 
 .content {
   padding-left: 6px;
+  font-family: "Nunito Sans", sans-serif;
 }
 .content img {
   height: 25px;
@@ -64,4 +70,33 @@ body {
   background-color: white;
   height: 100%;
   width: 100%;
+}
+
+.error{
+  margin-top: 100px;
+  text-align: center;
+  font-family: "Nunito Sans",
+  sans-serif;
+}
+
+.footer {
+  font-family: "Nunito Sans", sans-serif;
+  background-color: #3f3d56;
+  margin-top: 90%;
+  bottom: 0;
+  height: 20px;
+
+}
+
+.footer p{
+  color: white;
+}
+
+.projects{
+  text-align: center;
+  margin-top: 100px;
+}
+
+.contact{
+  text-align: center;
 }

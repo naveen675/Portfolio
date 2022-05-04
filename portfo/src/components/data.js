@@ -36,7 +36,7 @@ export default[
 
         {
             alt : "Node.js",
-            src :"htttps://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+            src :"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
             title:"nodejs"
         },
 

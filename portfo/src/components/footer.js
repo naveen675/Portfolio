@@ -2,7 +2,7 @@ import React from 'react';
 
 function Footer() {
   return (
-    <footer class="footer">
+    <footer className="footer">
       <p>Hasitation will stop working of brilliant minds</p>
     </footer>
   );

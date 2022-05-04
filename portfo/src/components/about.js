@@ -14,13 +14,17 @@ function About() {
       <p> Familiar with below technologies and tools </p>
       <div className='tools'>
       {
-          Data.map((tool) => {
+          Data.map((tool,index) => {
+
               const {src,alt,title} = tool;
-              <img
+              return(
+              <img  key={index}
                     alt={alt}
                     src={src}
                     title={title} />
+              )
           })
+          
       }
         </div>
     </div>
